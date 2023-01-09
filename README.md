@@ -48,6 +48,9 @@ Easy Ensemble AdaBoost Classifier:
 
 ![Screen Shot 2023-01-09 at 10 51 53 AM](https://user-images.githubusercontent.com/111692952/211350134-b0e01e29-ca73-44f1-bad6-b14f21210e00.png)
 
-
+## Summary
+Looking at all the models build in this analysis, we can see that precision is always high, however the sensitivity is what needs to be improved each time. Oversampling models performed better than the undersampling model and performed about the same as the combined under and oversampling model. The ensemble models performed the best, as expected, with the Easy Ensemble AdaBoost Classifier being the model that should be picked in this analysis. 
+This model was able to using adaptive boosting, so the model is trained then evaluated, after evaluating the errors from the previous model, it is trained again giving extra weight to the errors, with the purpose of minimizing similar errors in subsequent models, this process is repeated until the error rate is minimized.
+This model performed the best, giving a balanced accuracy score of 93%, precision of 99%, and recall of 94%. 
 
 
